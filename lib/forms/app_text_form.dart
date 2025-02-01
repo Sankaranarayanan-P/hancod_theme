@@ -77,7 +77,6 @@ class _AppTextFormState<T> extends State<AppTextForm<T>> {
         autovalidateMode: widget.autoValidateMode,
         name: widget.name,
         enabled: widget.enabled,
-        autovalidateMode: widget.autovalidateMode,
         key: key,
         controller: widget.controller,
         style: widget.contentStyle,

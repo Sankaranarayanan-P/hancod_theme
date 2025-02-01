@@ -100,6 +100,7 @@ class _AppButtonState extends State<AppButton> {
                 ButtonStyles.secondary => widget.color ?? AppColors.primary,
                 ButtonStyles.cancel => widget.color ?? AppColors.primary,
                 ButtonStyles.delete => AppColors.redStatus500,
+                ButtonStyles.success => AppColors.white,
               },
             ),
         backgroundColor: widget.backgroundColor ??
@@ -111,6 +112,7 @@ class _AppButtonState extends State<AppButton> {
                 ButtonStyles.cancel =>
                   Theme.of(context).scaffoldBackgroundColor,
                 ButtonStyles.delete => AppColors.redStatus500,
+                ButtonStyles.success => AppColors.success,
               },
             ),
         overlayColor: WidgetStateProperty.resolveWith(
